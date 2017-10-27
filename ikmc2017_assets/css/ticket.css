@@ -1,0 +1,37 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	line-height: 25px;
+	color: #535353;
+
+	
+}
+.ticket{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	width: 100%;
+	text-align: center;
+	border: 1px solid #333;
+	padding: 10px 80px;
+}
+.ticket-title{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.contest-name{
+	font-size: 22px;
+	font-weight: 700;
+}
+.table-ticket{
+	text-align: left;
+	margin: 0 auto;
+}
+.txt-bold{
+	font-weight: 700;
+}
+.ticket .last-row{
+	text-align: center;
+}
+.ticket .notice{
+	font-style: italic;
+}

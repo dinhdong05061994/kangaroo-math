@@ -1,0 +1,86 @@
+.wrapper{
+	width: 480px;
+	margin: 10% auto 12% auto;
+
+}
+.login-container{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: #fff;
+	
+	border-bottom: solid 1px;
+	
+	font-size: 16pt;
+	border: 1px solid #ccc;
+    box-shadow: 0 1px 2px 2px #ccc;
+    border-radius: 5px;
+}
+.login-container .login-top{
+	border-bottom: solid 1px;
+	height: 30px;
+	word-wrap: normal;
+	padding: 10px;
+	color: seagreen;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.login-container .login-content{
+	margin: 10px 0px;
+	float: left;
+	width: 100%;
+}
+.login-container .login-content .a_line{
+	float     : left;
+	margin    : 10px 0px;
+	clear     : both;
+	width     : 100%;
+	text-align: center;
+	
+}
+.login-container .login-content .line_error{
+	text-align: left;
+    padding-left: 5%;
+}
+.login-container .login-content .line_error span{
+	color: #F5D53E;
+	font-style: italic;
+	font-size: 12pt;
+}
+.login-container .login-content .a_line .left_line{
+	float: left;
+	width: 25%;
+	text-align: left;
+	padding-left: 5%;
+}
+.login-container .login-content .a_line .right_line{
+	float: right;
+	width: 60%;
+	margin-right: 10%;
+}
+.login-container .login-content .a_line .right_line input{
+	float: left;
+	width: 300px;
+	padding: 3px 10px;
+	border-radius: 3px;
+	font-size: 13pt;
+}
+.login-container .login-content .a_line .button{
+	float:left; 
+	font-size:14pt;
+	background:seagreen; 
+	width: 27%;
+	height: 30px;
+	font-family:time new roman;
+	padding-top :5px; 
+	margin-left: 30%;
+	border-radius: 5px; 
+	color:#fff;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+.login-container .login-content .a_line .button:hover{
+	background: green;
+	font-weight: normal;
+}

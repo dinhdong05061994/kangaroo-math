@@ -1,0 +1,165 @@
+/* 
+    Document   : home
+    Created on : May 5, 2013, 10:13:01 AM
+    Author     : Xzen4eveR
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    width: 100%;
+    margin: auto;
+}
+#debug{
+    height: 0px;
+}
+#warpper{
+    width: 1350px;
+    margin: auto;
+}
+#header{
+}
+/*///////////////////////////////////*/
+/*////////////Header item////////////*/
+/*///////////////////////////////////*/
+#menu-top{
+    width: 45.5%;
+    border-radius: 0px 0px 0px 50px;
+    float: right;
+    height: 69px;
+    border-bottom: 1px solid #bebebe;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(-90deg,#fff,rgba(230,230,230,0.9));
+    background-image: -moz-linear-gradient(-90deg,#fff,rgba(230,230,230,0.9));
+    background-image: -ms-linear-gradient(-90deg,#fff,rgba(230,230,230,0.9));
+    background-image: -o-linear-gradient(-90deg,#fff,rgba(230,230,230,0.9));
+    background-image: linear-gradient(-90deg,#fff,rgba(230,230,230,0.9));
+    position: relative;
+    z-index: 10;
+    font-family: "Open Sans",Verdana,Geneva,sans-serif;
+    color: hsl(199, 76%, 48%);
+    text-shadow: 0 1px hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menu-top ul{
+    
+    height: 65px;
+}
+#menu-top li{
+    height: 65px;
+    margin: 0 20px;
+    float: right;
+    text-align: center; 
+    line-height: 40px;
+    list-style: none;
+}
+#menu-top li a{
+    text-decoration: none;
+}
+.login-button{
+    width: 120px;
+    height: 40px;
+    outline: #EEE;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    position: relative;
+    background-image: 
+        -moz-linear-gradient(
+        center top , 
+        rgb(255, 255, 255) 0%, 
+        rgb(250, 250, 250) 50%, 
+        rgb(237, 237, 237) 50%, 
+        rgb(220, 220, 220) 100%);
+    background-image: 
+        -webkit-linear-gradient(
+        center top , 
+        rgb(255, 255, 255) 0%, 
+        rgb(250, 250, 250) 50%, 
+        rgb(237, 237, 237) 50%, 
+        rgb(220, 220, 220) 100%);  
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#banner-top{
+    height: 331px;
+    /*background: #049cdb;*/
+}
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+#content{
+    margin-top: 10px;
+}
+/*///////////////////////////////////*/
+/*///////////Content item////////////*/
+/*///////////////////////////////////*/
+#jskull{
+    margin-top: 10px;
+    height: 118px;
+}
+#lecture{
+    width: 80%;
+    height: auto;
+    float:inside;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    position: relative;
+}
+#lecture-item{
+    width: 33.33333%;
+    margin-top:20px;
+    margin-bottom:20px;
+    /*margin-left:20px;
+    margin-right:20px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float:left;
+
+}
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+#footer{
+    margin-top: 10px;
+    height: 100px;
+    background: #1f6377;
+}
+/*///////////////////////////////////*/
+/*////////////footer item////////////*/
+/*///////////////////////////////////*/
+#menu-bottom{
+    margin-top: 10px;
+    height: 32px;
+}
+#menu-bottom div{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    float: left;
+}
+#share-link{
+    margin-top: -32px;
+    height: 32px;
+}
+#share-link div{
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+#copyright{
+    margin-top: 10px; 
+    height: 100px;
+    text-align: center;
+    line-height: 64px;
+    background: #1f6377;
+}
+
+

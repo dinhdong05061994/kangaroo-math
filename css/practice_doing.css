@@ -1,0 +1,249 @@
+.latex{
+    clear: none;
+    float: none;
+    display: inline;
+    position: relative;
+}
+.latex_newline{
+    clear: both;
+    float: none;
+    text-align: center;
+    position: relative;
+}
+.part{
+        font-size: 18pt;
+    font-weight: bold;
+    font-style: italic;
+    color: #FF5D00;
+        float: left;
+    width: 98%;
+    text-align: center;
+        background: #017574;
+}
+.wrapper{
+    clear: both;
+    width: 1000px;
+    margin: auto;
+    font-family: "Arial";
+}
+.contents{
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    
+}
+.submit_form{
+    width: 1130px;
+    position: relative;
+    z-index: 1000;
+    bottom: 0px;
+    background: #017574;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    
+}
+.submit_form img{
+    
+    float: left;
+    margin-left: 300px;
+}
+.submit_form .time_test{
+    
+    float: left;
+    margin-left: 10px;
+    color: white;
+    font-size: 28pt;
+    font-weight: bolder;
+}
+.submit_form .end_test{
+    
+    float: right;
+    margin-right: 300px;
+    color: red;
+    font-size: 20pt;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: #F4C60B;
+    
+}
+.contents .title_code{
+    
+    font-weight: bold;
+    color: blue;
+    
+}
+.contents .title_question{
+    
+    font-weight: bold;
+    padding: 10px 10px 10px 1%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: linear-gradient(#ffffff,#eeeeee);    
+    
+}
+.contents .list_question{
+    
+    width: 100%;
+    padding: 10px 1% 0px 1%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    float: left;
+    
+}
+.contents .list_question .one_question{
+    margin-bottom: 10px;
+    background: #eeeeee;
+    padding: 5px 1% 5px 1%;
+    float: left;
+    font-size: 14pt;
+    width: 98%;
+    
+}
+.contents .list_question .one_question img{
+    max-width: 500px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.contents .list_question .one_question .question_header{
+    width: 100%;
+    float: left;
+    clear: both;
+    
+}
+
+.contents .list_question .one_question .question_header .question_order{
+    float: left;
+    width: 50px;
+    padding-right: 10px;
+}
+.contents .list_question .one_question .question_header .question_order .order_view{
+    float: left;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    margin-right: 5px;
+    padding-top: 7px;
+    
+}
+.contents .list_question .one_question .question_header .question.contents{
+    background: white;
+    float: left;
+    width: 94%;
+    text-wrap: normal;
+    
+}
+
+.contents .list_question .one_question .question_hint{
+    width: 100%;
+    float: left;
+    clear: both;
+    
+}
+.contents .list_question .one_question .question_hint .hint_title{
+    padding: 5px 0px 0px 20px;
+    color: #D84557;
+    font-style: italic;
+    
+}
+.contents .list_question .one_question .question_hint .hint.contents{
+    
+    font-style: italic;
+    padding: 0px 20px 0px 40px;
+    
+}
+.contents .list_question .one_question .question_key{
+    width: 100%;
+    float: left;
+    clear: both;
+    
+}
+.contents .list_question .one_question .question_key .key_title{
+    padding: 5px 0px 0px 20px;
+    color: #D84557;
+    font-style: italic;
+    
+}
+.contents .list_question .one_question .question_key .key.contents{
+    
+    font-style: italic;
+    padding: 0px 20px 0px 40px;
+    
+}
+.contents .list_question .one_question .question_ans{
+    width: 100%;
+    float: left;
+    clear: both;
+    
+}
+.contents .list_question .one_question .question_ans .ans_title{
+    padding: 5px 0px 0px 20px;
+    font-weight: bold;
+    
+}
+.contents .list_question .one_question .question_ans .ans.contents{
+    
+    padding: 5px 20px 0px 100px;
+    
+}
+.contents .list_question .one_question .question_ans p{
+    display: inline;
+}
+.contents .list_question .one_question .question_ans .right_check{
+    background-image: url("http://edugreen.vn/images/template/icon_dung.png");
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 30px;
+    width: 30px;
+    float: left;
+    
+    margin-top: -5px;
+}
+.result_test{
+    margin-top: 40px;
+    width: 58%;
+    margin: 10px 20% 10px 20%;
+    background: #59d10b;
+    font-size: 18pt;
+    padding: 1%;
+    color: white;
+    
+}
+.result_test .mark_test{
+    font-size: 64pt;
+    margin-left: 250px;
+    font-weight: bolder;
+}
+.result_test .num_right_ans{
+    margin-left: 120px;
+    font-weight: bold;
+}
+.result_test .num_empty_ans{
+    margin-left: 100px;
+    font-weight: bold;
+}
+.result_test .num_wrong_ans{
+    margin-left: 140px;
+    font-weight: bold;
+}
+.result_test .time_test_real{
+    margin-left: 50px;
+    font-weight: bold;
+}
+.action_after{
+    width: 30%;
+    margin: 10px 34% 10px 34%;
+    background: #ffc018;
+    font-size: 18pt;
+    padding: 1%;
+    color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+}

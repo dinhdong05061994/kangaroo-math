@@ -1,0 +1,112 @@
+.page-title{
+	color: #5a075b;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: bold;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 80px auto;
+
+}
+#introduction-content{
+	text-align: justify;
+}
+.overview{
+	margin-top: 50px;
+}
+.intro-content{
+	font-size: 16px;
+}
+.introduction-para{
+	text-align: justify;
+	color: #333;
+	font-size: 16px !important;
+	margin-left: 40px;
+	margin-bottom: : 0px;
+}
+.introduction-menu{
+	list-style: none;
+}
+.introduction-categories{
+	font-size: 16x;
+	border: 1px solid #eee;
+	text-transform: uppercase;
+	min-width: 50px;
+	min-height: 40px;
+	text-align: left;
+	margin-bottom: 8px;
+	background-color: #eee;
+	font-weight: bold;
+}
+.introduction-categories .menu-link{
+	height: 100%;
+	width: 100%;
+	padding: 10px 15px;
+	display: block;
+	position: relative;
+	color: inherit;
+	background-color: #fff;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+.introduction-categories .menu-link:hover{
+	color: #FDB813;
+
+}
+.introduction-categories a.active{
+	color: #FDB813;
+}
+.introduce-img{
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	border: 2px solid #eee;
+	border-radius: 25px;
+	max-height: 260px;
+	margin-right: 30px;
+}
+.image-caption{
+	margin-top: 10px;
+}
+.bold{
+	font-weight: 700;
+}
+.para-title{
+	font-size: 32px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+.first-title{
+	margin-top: 0px !important;
+}
+.intro-content .fa{
+	color: #333;
+	font-size: 16px;
+	margin-right: 3px;
+}
+.intro-content .fa-circle{
+	font-size: 12px !important;
+}
+.table-bordered thead tr th{
+	background-color: #f7bc33;
+	text-align: center;
+	text-transform: uppercase;
+	border: 4px solid #fff;
+}
+.table-bordered tbody tr td{
+	background-color: #ffda84;
+	text-align: center;
+	border: 4px solid #fff;
+	vertical-align: middle;
+}
+.table-bordered{
+	border: 2px solid #fff;
+}
+.table-categories{
+	width: 70%;
+}
+.para-categories{
+	margin-left: 0px !important;
+}

@@ -1,0 +1,286 @@
+.wrapper
+{
+    
+    margin: 0px auto;
+    padding: 0px;
+   
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-family: none;
+    font: none;
+   
+    
+}
+.wrapper .header_block
+{
+    float: left;
+    clear: both;
+    width: 95%;
+    margin: 0.25em;
+    padding: 0.5em;
+    color: green;
+    font-weight: 550;
+    font-family: "Open Sans",Verdana,Geneva,sans-serif;
+    font-size: 1.0em;
+    border: 1px solid #CCC;
+}
+.wrapper .center_block
+{
+    width: 80%;
+    /*float: left;*/
+    margin: 0.25em;
+    padding: 0.5em;
+    padding-top: 100px;
+	 padding-bottom: 50px;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+	 background: white;
+}
+.wrapper .ranking
+{ 
+    height: 500px;
+    float: right;
+    border: 1px solid #CCC;
+    background-image: url("../../images/violympic/Hinhnenso.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    width: 25%;   
+    margin-top: 0px;
+    position: relative;
+   
+}
+.wrapper .ranking H3
+{
+    font-size: 18pt;
+    font-family: "Time New Roman";
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.wrapper .ranking .rank_user
+{
+    font-size: 16pt;
+    font-family: "Time New Roman";
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+    
+.center_block .course_select
+{
+    float: left;
+    width: 100%;
+}
+/*B?ng x?p h?ng*/
+.wrapper .ranking
+{
+    
+   
+   
+     
+}
+.wrapper .ranking table
+{   
+    width: 100%;
+    margin-top: 0px;
+    font-size: 12pt;
+    text-align: center;
+    color: white;
+}
+.wrapper .ranking table img
+{   
+    margin-left: 5px;
+}
+.wrapper .ranking table .tr1
+{   
+    border-bottom: solid 1px;
+    background-color: rgba(114, 89, 89, 0.5);
+}
+.wrapper .ranking table .tr0
+{   
+    border-bottom: solid 1px;
+    background-color: rgba(120, 111, 111, 0.5);
+}
+.wrapper .ranking table tr td
+{   
+    vertical-align: middle;
+    font-family: cursive;
+}
+.wrapper .ranking table th
+{
+    height: 2em;
+    font-size: 10pt;
+    text-align: center;
+    background-color: rgba(87, 80, 80, 0.5);
+    color: white;
+    font-weight: 700;
+}
+
+.center_block .course_select label
+{
+    float: left;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 1em;
+    width: 15%;
+    clear: left;
+    color: blue;
+    font-family: "Open Sans",Verdana,Geneva,sans-serif;
+    font-size: 1.0em;
+    text-align: center;
+}
+.center_block .course_select select
+{
+    float: left;
+    margin-top: 1em;
+    width: 75%;
+}
+.center_block .lecture_select
+{
+    clear: both;
+    float: left;
+    width: 95%;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+    
+}
+.center_block .button_submit
+{
+    clear: both;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.center_block .lecture_select .table_choise
+{
+    float: left;
+    width: 98%;
+    padding: 1em;
+    
+}
+.center_block .lecture_select .table_choise table{
+    width: 100%;
+}
+.center_block .lecture_select .time_test
+{
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 100%;
+    
+}
+.center_block .lecture_select .time_test p
+{
+    margin-left: 1em;
+    font-weight: bold;
+    color: blue;
+}
+.center_block .lecture_select .show_more
+{
+    float: left;
+    padding: 1em;
+}
+.center_block .lecture_select .show_less
+{
+    float: left;
+    padding: 1em;
+}
+.center_block .lecture_select .table_choise table tr td
+{
+    padding: 1em;
+}
+.center_block .lecture_select .table_choise .tr_header
+{
+    height: 2em;
+    font-size: 14pt;
+    text-align: center;
+    background-color: #512555;
+    color: white;
+    font-weight: 700;
+}
+.center_block .lecture_select .table_choise .tr_header .td_select
+{
+    width: 3em;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+}
+.center_block .lecture_select .table_choise .tr_header .td_basic_num
+{
+    width: 12em;
+    text-align: center;
+     border-right: 1px solid #ffffff;
+}
+.center_block .lecture_select .table_choise .tr_header .td_intermediate_num
+{
+    width: 12em;
+    text-align: center;
+     border-right: 1px solid #ffffff;
+}
+.center_block .lecture_select .table_choise  .td_basic_num
+{
+    
+    text-align: center;
+     }
+.center_block .lecture_select .table_choise .td_intermediate_num
+{
+    
+    text-align: center;
+   
+}
+.center_block .lecture_select .table_choise .td_select input
+{
+    height: 19px;
+    width: 20px;
+    
+    margin-left: 1em;
+}
+.center_block .lecture_select .table_choise .td_lecture_name p
+{
+    color: #07A;
+    margin-top: 0.5em;
+}
+.center_block .lecture_select .table_choise select
+{
+      background-color: rgb(240, 116, 27);
+      height: 1.2em;
+      width: 4em;
+      font-size: 16pt;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      overflow: hidden;
+      box-shadow: 5px;
+      -webkit-appearance: none;
+}
+.center_block .lecture_select .table_choise .tr_0
+{
+    background-color: floralwhite;
+}
+.center_block .lecture_select .table_choise .tr_1
+{
+    
+}
+.level_select
+{
+    clear: both;
+    float: left;
+    width: 95%;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+    
+}
+.level_select .box-button
+{
+    margin: 10px 0px;
+
+}
+.level_select .box-button .btn{
+    font-size: 16pt;
+}
+
+

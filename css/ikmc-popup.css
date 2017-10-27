@@ -1,0 +1,34 @@
+
+
+#popup1{
+	width:800px;
+	height:80%;
+	position:fixed!important;
+	z-index:100;
+	top:35px;
+	left:50%;
+	background:#fff;
+	margin-left:-400px;
+	border:2px solid #fff;
+	border-radius:3px;
+	}
+
+#popup1 #main{
+	width:796px;
+	height:100%;
+	padding:15px;
+	font-size:18px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:capitalize;
+	}	
+	
+#popup1-full{
+	width:100%;
+	height:400%;
+	background:#000000;
+	opacity:0.8;
+	position:fixed!important;
+	z-index:90;
+	margin-top:0px;
+	}						

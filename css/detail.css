@@ -1,0 +1,15 @@
+.hd-detail{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	
+	overflow:auto;	
+	word-spacing:2px;
+	text-align:justify;
+	}
+.content .content-right .hd-item{
+	margin-top:25px;
+	margin-left:-10px;
+	}
+.content .label-success{
+	margin-left:10px;	
+	}

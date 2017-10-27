@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+input:focus::-webkit-input-placeholder 
+{
+		color: transparent;
+}
+
+html {
+}
+
+body { 
+	background: #FFF;
+	padding: 0px;
+	margin: 0px;
+	color: #222222; 
+	font-family: 'Open Sans', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;	
+}
+
+iframe {
+  border: 0;
+}
+
+h3,
+h4
+{
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2,
+h1 
+{
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+
+.copy-base {
+  font-size: 16px;
+  line-height: 23.671875px;
+}
+
+.copy-lead {
+  font-size: 21px;
+  line-height: 31.078125px;
+}
+
+.copy-detail {
+  font-size: 14px;
+  line-height: 20.71875px;
+}
+
+.copy-meta {
+  color: #050505;
+  font-size: 12px;
+  line-height: 17.76px;
+}
+
+.copy-meta-value {
+  font-weight: 700;
+} 
+
+.item-list ul 
+{
+	display: none;
+}
+
+.loading-spinner-news
+{
+	margin-left: 90px !important;
+	bottom: -2px !important;
+}
+
+.item-list .load-more-courses
+{
+  position: relative;
+}
+
+.item-list .load-more-articles
+{
+  position: relative;
+	font-style: italic;
+}
+
+#temporal-loading-courses
+{
+	display: block;
+	left: 355px;
+	position: absolute;
+	top: 20px;
+}
+
+#temporal-loading-articles 
+{
+	display: block;
+	left: 355px;
+	position: absolute;
+	top: 20px;
+}
+
+#infscr-loading {
+	display: none !important;
+	position: absolute;
+	text-align: center;
+	bottom: 8px;
+	margin-left: 554px;
+	z-index: 100;
+	color: #222;
+	font-size: 1em;
+}
+
+.header-white
+{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-bottom: 1px solid #c9c9c9;
+  height: 59px;
+}
+
+.header-white .header-white-title
+{
+  padding-left: 13px;
+  padding-top: 10px;
+  font-size: 2.333em;
+  text-transform: uppercase;
+	color: #2f73bc; /* color: #00a0e3; 5/30: Changed for accessibility */
+  font-weight: 300;
+}
+
+.header-grey
+{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../images/header-gray-background.png') repeat-x top left;
+	height: 59px;
+}
+
+.header-grey .header-grey-title
+{
+	padding-left: 30px;
+	padding-top: 10px;
+	font-size: 2.333em;
+	color: rgb(121, 121, 121);
+}
+
+.panels-flexible-region-inside-last,
+.panels-flexible-region-inside-first
+{
+	padding: 0px;
+}
+
+.panels-flexible-row
+{
+		padding: 0px;
+		margin: 0px;
+}
+
+#page
+{
+	/*background: url('../images/bg-texture-all.jpg') repeat;*/
+	background: rgb(247, 247, 247);
+}
+
+#pagenotfound
+{
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.clearfix:before,
+.clearfix:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+}
+
+.clearfix:after {
+		clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+		*zoom: 1;
+}
+
+.panel-separator
+{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.banner-content
+{
+	width 100%;
+}
+
+.banner-content .banner
+{
+	width: 960px;
+	height: 195px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 0px;
+
+	border-bottom: 1px solid #AEAEAE;
+}
+
+p
+{
+	line-height: 21px;
+}
+
+.profile,
+#user-login
+{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/***** OTHER STUFF ****************************************************/
+
+
+/* hide any HRs used in the layout, but show them in main content */
+hr,
+.ahem,
+
+#skip-link {
+	display: none;
+}
+
+#content hr {
+	display: block;
+}
+
+#header { 
+	background: #cff; 
+	}
+	
+	
+.inside-page-right-widgets 
+{
+	padding-left: 9px;
+}
+
+
+
+/***** OTHER *******************************************************/
+
+
+#content,
+#navigation,
+#sidebar-first,
+#sidebar-second {
+	float: left;
+}
+.with-navigation #content,
+.with-navigation #sidebar-first,
+.with-navigation #sidebar-second {
+	margin-top: 3em;       /* NAV height */
+}
+#navigation {
+	height: 3em;           /* NAV height */
+	width: 100%;
+	margin-right: -100%;
+}
+#navigation h2 {
+	margin: 0;
+}
+
+#content_bk {
+	width: 100%;
+}
+.sidebar-first #content .section {
+	padding-left: 200px;   /* LC width */
+}
+.sidebar-second #content .section {
+	padding-right: 160px;  /* RC width */
+}
+.two-sidebars #content .section {
+	padding-left: 200px;   /* LC width */
+	padding-right: 160px;  /* RC width */
+}
+#sidebar-first {
+	width: 200px;          /* LC width */
+	margin-right: -200px;
+}
+#sidebar-second {
+	float: right;
+	width: 160px;          /* RC width */
+	margin-left: -160px;   /* RC width */
+}
+
+
+
+/* IE6 fix */
+* html #sidebar-first {
+	left: 160px;           /* RC width */
+}
+
+
+/*** OVERRIDE NIVO ****/
+.theme-default .nivoSlider 
+{
+
+	width: 634px !important;
+	height: 445px !important;
+
+	-webkit-box-shadow: 0px 0px 0px 0px #fff !important;
+	-moz-box-shadow: 0px 0px 0px 0px #fff !important;
+	box-shadow: 0px 0px 0px 0px #fff !important;
+}
+
+.theme-default .nivoSlider .nivo-caption
+{
+	font-family: 'luxisansregular', Arial;
+	font-size: 1.6em;
+	color: #19404E;
+	margin-left: auto;
+	margin-right: auto;
+	background: none;
+	text-align: center;
+}
+
+/*** OVERRIDE LIGHTBOX2 ****/
+#bottomNavLink {
+  display: block;
+  color: #eee;
+  height: 1em;
+  font-size: 125%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*** OVERRIDE LIGHTBOX2 ****/
+#bottomNavLinki:hover {
+  color: #fff;
+}

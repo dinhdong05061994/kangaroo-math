@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+header
+{
+	height: 76px;
+	font-family: 'Open Sans', Arial;
+	border-bottom: 1px solid rgb(148, 148, 148);
+	background: #FFF;
+}
+
+header .header-menu
+{
+	padding-top: 16px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header .header-menu .sign-in,
+header .header-menu .dashboard
+{
+	float: right;
+}
+
+header .header-menu .btn {
+  margin-bottom: 0;
+  color: white;
+}
+
+header .header-menu .dashboard
+{
+  display: none;
+}
+
+header .header-menu .logo
+{
+	/*background: url('../images/edx-logo-header.png') no-repeat;
+	width: 119px;
+	height: 47px;*/
+	float:left;
+	margin-right: 30px;
+	cursor: pointer;
+	height: 60px;
+}
+
+
+header .header-menu .menu
+{
+	float: left;
+	/*width: 768px;*/
+    margin-bottom: 10px;
+}
+
+header .header-menu .menu ul 
+{
+	list-style: none;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+
+header .header-menu .menu ul li
+{
+	float:left;
+    padding: 1em 0px;
+}
+
+header .header-menu .menu ul li a
+{
+    display: block;
+    position: relative;
+   	list-style: none;
+	margin-left: 0px;
+	margin-right: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: rgb(102,102,102);
+	font-weight: 600;
+    
+}
+
+
+header .header-menu .menu ul li a:visited
+{
+	color: rgb(102,102,102);
+}
+
+header .header-menu .menu ul li a.active,
+header .header-menu .menu ul li a:hover
+{
+	/*border-bottom: 1px dotted #2f73bc; /* rgb(23, 135, 183); 6/4: Changed for accessibility */*/
+    color: #2f73bc; /* rgb(0,160,227); 5/30: Changed for accessibility */
+    background: #F0EFEF;
+}
+
+header .header-menu .menu li ul {
+    position: absolute;
+    display:  none;       
+}
+
+header .header-menu .menu li:hover ul {
+    display:  block;   
+    margin-top: 5px; 
+}
+
+header .header-menu .menu ul li:hover ul li {
+    border: 1px solid #8A8C8F;
+    padding: 3px;
+    margin-top:0.3px;
+    font-size: 9px;
+    font-weight: 300;
+    background: #F0EFEF;  
+    width: 100%;
+}
+
+.home-page-banner-inside {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+	height: 274px;
+}
+.register-button {
+    margin-top: -90px;
+    position: absolute;
+}

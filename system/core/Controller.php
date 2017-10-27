@@ -1,0 +1,88 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * CodeIgniter
+ *
+ * An open source application development framework for PHP 5.1.6 or newer
+ *
+ * @package		CodeIgniter
+ * @author		ExpressionEngine Dev Team
+ * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
+ * @license		http://codeigniter.com/user_guide/license.html
+ * @link		http://codeigniter.com
+ * @since		Version 1.0
+ * @filesource
+ */
+
+// ------------------------------------------------------------------------
+
+/**
+ * CodeIgniter Application Controller Class
+ *
+ * This class object is the super class that every library in
+ * CodeIgniter will be assigned to.
+ *
+ * @package		CodeIgniter
+ * @subpackage	Libraries
+ * @category	Libraries
+ * @author		ExpressionEngine Dev Team
+ * @link		http://codeigniter.com/user_guide/general/controllers.html
+ */
+class CI_Controller {
+
+	private static $instance;
+
+	/**
+	 * Constructor
+	 */
+	public function __construct()
+	{
+		self::$instance =& $this;
+		
+		// Assign all the class objects that were instantiated by the
+		// bootstrap file (CodeIgniter.php) to local class variables
+		// so that CI can run as one big super object.
+		foreach (is_loaded() as $var => $class)
+		{
+			$this->$var =& load_class($class);
+		}
+
+		$this->load =& load_class('Loader', 'core');
+
+		$this->load->initialize();
+		
+		log_message('debug', "Controller Class Initialized");
+	}
+
+	public static function &get_instance()
+	{
+		return self::$instance;
+	}
+    
+    
+    //Chuyen ma khoa hoc ve dinh dang ten bang
+    public function convert_grade_table_name($course_code) {
+        $table_name = "0000";
+            
+        $p = 0;
+        $q = 0;
+        while (isset($course_code[$p])) {
+            if ($course_code[$p] == '.') {
+                $table_name[$q] = 'd';
+                $table_name[$q+1] = 'o';
+                $table_name[$q+2] = 't';
+                $q = $q + 3;
+            } else {
+                $table_name[$q] = strtolower($course_code[$p]);
+                $q++;
+            }
+            $p++;
+        }
+        $table_name = $table_name."_grade";
+        return $table_name;
+    }
+    
+}
+// END Controller class
+
+/* End of file Controller.php */
+/* Location: ./system/core/Controller.php */
